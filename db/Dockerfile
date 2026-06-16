@@ -2,7 +2,7 @@
 FROM mysql:8
 
 
-# Variables de entorno (se aplicarán automáticamente al iniciar el contenedor) wuwu
+# Variables de entorno (se aplicarán automáticamente al iniciar el contenedor) uwu
 ENV MYSQL_ROOT_PASSWORD=admin123
 ENV MYSQL_DATABASE=tienda_perritos
 ENV MYSQL_USER=alumno
