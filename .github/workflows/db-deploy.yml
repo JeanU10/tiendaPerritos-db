@@ -11,7 +11,7 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: tienda-db
-  ECS_SERVICE: tienda-db-service
+  ECS_SERVICE: db_task_service
   ECS_CLUSTER: tienda-perritos-cluster
   ECS_TASK_DEFINITION: .aws/task-definition.json
   CONTAINER_NAME: db-container
