@@ -7,6 +7,7 @@ on:
       - 'db/**'
       - '.aws/task-definition.json'
       - '.github/workflows/db-deploy.yml'
+      - 'README.md'
 
 env:
   AWS_REGION: us-east-1
